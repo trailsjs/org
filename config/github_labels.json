@@ -1,0 +1,74 @@
+[
+  {
+     "name": "api change",
+     "color": "eb6420"
+  },
+  {
+     "name": "bug",
+     "color": "800000"
+  },
+  {
+     "name": "crash",
+     "color": "e11d21"
+  },
+  {
+     "name": "discussion",
+     "color": "964b00"
+  },
+  {
+     "name": "feature",
+     "color": "207de5"
+  },
+  {
+     "name": "needs complete example",
+     "color": "666666"
+  },
+  {
+     "name": "needs documentation",
+     "color": "5319e7"
+  },
+  {
+     "name": "needs failing test",
+     "color": "666666"
+  },
+  {
+     "name": "node4",
+     "color": "ffffff"
+  },
+  {
+     "name": "node5",
+     "color": "ffffff"
+  },
+  {
+     "name": "node6",
+     "color": "ffffff"
+  },
+  {
+     "name": "pull request wanted",
+     "color": "159818"
+  },
+  {
+     "name": "question",
+     "color": "cc317c"
+  },
+  {
+     "name": "sails",
+     "color": "0c8da0"
+  },
+  {
+     "name": "security",
+     "color": "006b75"
+  },
+  {
+     "name": "refactor",
+     "color": "666666"
+  },
+  {
+     "name": "task",
+     "color": "333333"
+  },
+  {
+     "name": "ux",
+     "color": "0052cc"
+  }
+]
