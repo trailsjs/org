@@ -1,10 +1,11 @@
 {
   "name": "trailsjs-org-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "trailsjs org configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "org-labels standardize trailsjs org",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
