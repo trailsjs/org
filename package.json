@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/trailsjs/org/issues"
   },
-  "homepage": "https://github.com/trailsjs/org#readme"
+  "homepage": "https://github.com/trailsjs/org#readme",
+  "dependencies": {
+    "org-labels": "2.0.0"
+  }
 }
