@@ -6,7 +6,7 @@ before_install:
 - mkdir ~/.config
 - git config --global user.name Travis Webb
 - git config --global user.email me@traviswebb.com
-- echo '{"user":"tjwebb", "token":"$GITHUB_ACCESS_TOKEN"}' > ~/.config/org-labels.json
+- echo "{\"user\":\"tjwebb\", \"token\":\"$GITHUB_ACCESS_TOKEN\"}" > ~/.config/org-labels.json
 
 env:
   global:
