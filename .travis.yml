@@ -10,9 +10,9 @@ install: echo "no install"
 script: echo "no tests"
 
 before_deploy:
-- npm install -g org-labels
-- git config --global github.user tjwebb
-- git config --global github.token $GITHUB_ACCESS_TOKEN
+- "npm install -g org-labels"
+- "git config --global github.user tjwebb"
+- "git config --global github.token $GITHUB_ACCESS_TOKEN"
 
 deploy:
-  - org-labels standardize trailsjs trailsjs/org
+  - "org-labels standardize trailsjs trailsjs/org"
