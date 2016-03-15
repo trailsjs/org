@@ -74,5 +74,9 @@
   {
      "name": "windows",
      "color": "000000"
+  },
+  {
+     "name": "bounty",
+     "color": "00FF00
   }
 ]
