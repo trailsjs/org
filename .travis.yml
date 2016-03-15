@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- 4
+
+env:
+  global:
+    - secure: "GVSWSHZg+3cQHPQYEwMzNYBgA27k2eeEKLv+GvCfZBVIUqZsLS1UJDrJdD1q0neYU1LoW/QG+3H92eCZYAVUBDNbU4eOvUoNgDr15XHByefivO0dSr3py0VY3sgdy+41eJm/Rhi6h+pqQQjfqM63mxvQqCY+kGhOs1YwhnkLqwK39E++7aEoTgrG+YAVrzrHrAx2Gt5ClGCI8+ECzwdrWUmUELSja5w/V75C5mLtKF9vpHmzSHEb0eVBiqSIW+gJLTiRRgoOytTNPTfkqSex0USQrIwN0tcGOqmikFYKwOuSSjP08j3hblmOxAyWtB0Ri/oljMKKJlrzWUtVxSh21ymx96VZNUYw5MXxoV1Q0+HN3DkCNzSz2byNq/6sJfXDzisoPVmpBPay5S/uYIHWEZUiZKFeY8czy3l1kyOlyMFx+ZoOj8MnG0pXi7IiLjMoQ1Y3Er59zhr2GzcranIbvS4sIu7ddbLFGufFb0W7/7NQA0n+UfWPO5MKYUOv/dGpPviVXEDIdo2xAUM/38lfIli6Jd3TnDPwIJd/pX78b4xk6n+RcAekmK/r+VQ9oR9kxOyGAWHTTXUbH1M0EK/KEffTmzZ/C1U9v8LPCr/GESQnLqH1ZxUt7EEhu5Hu4OwniiK1LZtd17Qhtrt9nltk/AmIu6SChUkprEIKsHbhlyw="
+
+script: echo 'no tests.'
+
+before_deploy:
+- npm install -g org-labels
+- git config --global github.user tjwebb
+- git config --global github.token $GITHUB_ACCESS_TOKEN
+
+deploy:
+  - org-labels standardize trailsjs trailsjs/org
