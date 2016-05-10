@@ -78,5 +78,9 @@
   {
      "name": "bounty",
      "color": "00ff00"
+  },
+  {
+     "name": "unresolved",
+     "color": "666666"
   }
 ]
