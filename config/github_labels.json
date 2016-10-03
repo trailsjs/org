@@ -82,5 +82,9 @@
   {
      "name": "unresolved",
      "color": "666666"
+  },
+  {
+     "name": "Hacktoberfest",
+     "color": "b0581d"
   }
 ]
